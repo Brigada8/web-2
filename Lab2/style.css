@@ -1,0 +1,16 @@
+.Menu{
+border-style: solid;
+    border-width: 3px;
+    border-color: #801f1f;
+    height: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 25px;
+    text-decoration: none;
+}
+.Buttons{
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+
+}

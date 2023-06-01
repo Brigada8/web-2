@@ -1,0 +1,43 @@
+#main {
+  display: flex;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+#left {
+  display: flex;
+  float: left;
+  background: green;
+  width: 100px;
+  height: 500px;
+}
+
+#top {
+  float: top;
+  background: blue;
+  width: 400px;
+  height: 100px;
+}
+#middle {
+  float: top;
+  background: white;
+  height: 300px;
+  width: 400px;
+}
+
+#bottom {
+  float: bottom;
+  background: blue;
+  height: 100px;
+  width: 400px;
+}
+#right {
+  display: flex;
+  float: right;
+  background: green;
+  width: 50px;
+  height: 500px;
+}
