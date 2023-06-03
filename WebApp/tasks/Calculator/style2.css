@@ -1,0 +1,66 @@
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.calculator {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+}
+
+/* Решта стилів залишаються без змін */
+
+.calculator {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #1e1b1bfd;
+  border-radius: 10px;
+}
+
+#result {
+  width: 90%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 24px;
+  text-align: right;
+  background-color: #fff;
+  border: none;
+  border-radius: 30px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+button {
+  padding: 10px;
+  font-size: 18px;
+  background-color: #c8bebe75;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.operator {
+  background-color: #ff9800;
+  color: #fff;
+}
+
+.equals {
+  background-color: #f44336;
+  color: #fff;
+}

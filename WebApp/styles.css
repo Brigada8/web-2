@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  header nav {
+    display: flex;
+  }
+  
+  header nav > a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Стили для footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Стили для блока заголовка */
+  .header {
+    background: url("https://incom.com.kz/upload/iblock/f88/zf4uphyn2aumlhynjwcxy56hqgkifvc0.png") no-repeat ; /* Путь к фоновой картинке для заголовка */
+    background-size: cover;
+    padding: 40px;
+    text-align: center;
+    color: #fff;
+    height: 400px;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  /* Стили для блока описания */
+  .description {
+    background-color: #f8f8f8;
+    padding: 40px;
+  }
+  
+  .description p {
+    line-height: 1.5;
+  }
+  
+  /* Стили для блока списка курсов */
+  .courses {
+    padding: 40px;
+    background-color: #fff;
+  }
+  
+  .courses ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  /* Стили для блока вызова к действию */
+  .cta {
+    background-image: url("https://c1.wallpaperflare.com/preview/120/154/504/postit-scrabble-to-do-todo.jpg"); /* Путь к фоновой картинке для блока вызова к действию */
+    background-size: cover;
+    padding: 40px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .cta button {
+    padding: 10px 20px;
+    background-color: #FFC107;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .cta a:hover {
+    background-color: #FFA000;
+  }
+
+  .requirements {
+    text-align: center;
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f8f8f8;
+  }
+
+  #accordion{
+    margin-top: 50px;
+    width: 50%;
+    transform: translateX(50%);
+  }
+
+  #txt{
+    margin-left: 20px;
+    color: #FFA000;
+    font-weight: 800;
+    font-size: large;
+  }
+
+  #logo{
+    width: 50px;
+    height: 50px;
+  }
+
+  #slider{
+    width: 50%;
+    transform: translateX(50%);
+  }

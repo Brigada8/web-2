@@ -1,0 +1,224 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    body{
+        margin:0;
+    }
+
+    .header{
+        width: 100%;
+        background-color: rgb(41,41,41);
+        color: white;
+        text-align: center;
+    }
+
+    .header > h2{
+        margin:0;
+        margin-bottom: 50px;
+        color: orange;
+    }
+    .header > h3{
+        margin:0;
+    }
+    .blocks{
+        display: inline-flex;
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .block{
+        width: 400px;
+        text-align: center;
+        background-color: rgb(33, 33, 33);
+        border-radius: 15px;
+        border-color: azure;
+        border-width: 1px;
+        border-style: groove;
+    }
+
+    .block:hover{
+        border-color: orange;
+    }
+    .block:hover .btn{
+        border-color: orange;
+    }
+    .btn{
+        width: 100%;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-width: 0px;
+        border-top-width: 1px;
+        border-color: azure;
+        background-color: rgb(41,41,41);
+        border-style: groove;
+        height: 50px;
+        bottom: 0;
+    }
+    li {
+    list-style-type: none;
+    }
+    ul {
+        padding-left: 0;
+    }
+
+    .middle{
+        display: inline-flex;
+        width: 100%;
+        height: 400px;
+        justify-content: space-between;
+        background-color: rgb(50,152,242);
+    }
+
+    .middle img{
+        height: 300px;
+        width: 300px;
+        margin-top: 50px;
+        border-radius: 25px;
+    }
+
+    .info{
+        display: flex;
+    }
+    .textbox{
+        display: flex;
+        flex-direction: column;
+        width: 800px;
+        height: 700px;
+    }
+
+    .footer{
+        margin: 0;
+        background-color: rgb(255,150,56);
+        height: 80px;
+    }
+
+.box {
+  width: 653px;
+  height: 700px;
+  margin: auto;
+  border: 6px solid rgb(252,212,54);
+  border-radius: 20px;
+  box-sizing:border-box;
+  position: relative;
+  
+}
+
+.box:before {
+  position:absolute;
+  content: "";
+  width: 656px;
+  height: 453;
+  left:50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+}
+.box:after {
+  position:absolute;
+  content: "";
+  width: 529px;
+  height: 591px;
+  left:50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+}
+
+    
+
+</style>
+
+<body>
+    <div class="header">
+        <h3 style="padding-top:20px;">Популярні напрямки</h3>
+        <h2>Курсів програмування</h2>
+    <div class="blocks">
+
+        <div class="block" style="margin-left: 50px;">
+            <img style="width: 50px; height: 50px; padding-top: 20px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png">
+            <p style="color: rgb(51,157,252);"> Complex </p>
+
+            <h2> JavaScript </h2>
+            <h3 style="color: orange;"> Комплексний курс </h3>
+
+            <ul>
+                <li>Стартовий рівень: Початківець</li>
+                <li>Тривалість: 5-11 місяців</li>
+                <li>Ціна: від 14500грн.</li>
+            </ul>
+
+            <p style="color: rgb(50,153,245);"> залишиось 3 місця </p>
+
+            <button class="btn"> Детальніше </button>
+
+        </div>
+
+        <div class="block">
+            <img style="width: 50px; height: 50px; padding-top: 20px;" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/181_Java_logo_logos-512.png">
+            <p style="color: rgb(51,157,252);"> Complex </p>
+
+            <h2> Java </h2>
+            <h3 style="color: orange;"> Комплексний курс </h3>
+
+            <ul>
+                <li>Стартовий рівень: Початківець</li>
+                <li>Тривалість: 6-11 місяців</li>
+                <li>Ціна: від 14500грн.</li>
+            </ul>
+
+            <p style="color: rgb(50,153,245);"> залишиось 6 місць </p>
+
+            <button class="btn"> Детальніше </button>
+
+        </div>
+
+        <div class="block" style="margin-right: 50px;">
+            <img style="width: 50px; height: 50px; padding-top: 20px;" src="https://img.freepik.com/free-icon/snakes_318-368381.jpg">
+            <p style="color: rgb(51,157,252);"> Complex </p>
+
+            <h2> JavaScript </h2>
+            <h3 style="color: orange;"> Комплексний курс </h3>
+
+            <ul>
+                <li>Стартовий рівень: Початківець</li>
+                <li>Тривалість: 6-11 місяців</li>
+                <li>Ціна: від 14500грн.</li>
+            </ul>
+
+            <p style="color: rgb(50,153,245);"> залишиось 4 місця </p>
+
+            <button class="btn"> Детальніше </button>
+
+        </div>
+    </div>
+    </div>
+
+    <div class="middle"> 
+            
+        <img style="margin-left: 20px;"  src="https://www.bdc.ca/globalassets/digizuite/34607-how-to-get-business-up-and-running-sm.jpg?v=493b02">
+        <img src="https://www.bdc.ca/globalassets/digizuite/34607-how-to-get-business-up-and-running-sm.jpg?v=493b02">
+        <img src="https://www.bdc.ca/globalassets/digizuite/34607-how-to-get-business-up-and-running-sm.jpg?v=493b02">
+        <img style="margin-right: 20px;" src="https://www.bdc.ca/globalassets/digizuite/34607-how-to-get-business-up-and-running-sm.jpg?v=493b02">
+        
+    </div>
+    <div class="info">
+        <img style="height: 800px;" src="https://www.pngmart.com/files/15/Black-Girl-Using-Mobile-Phone-Transparent-PNG.png">
+        <div class="textbox">
+            <h1 style="font-size: 45px; color:rgb(255,150,56);">Від новачка до PRO-розробника</h1>
+        <div class="box"> <p></p></div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <h1 style="margin:0;color: rgb(255, 255, 255);">НАВЧАЙСЯ ЗАРАЗ, СПЛАЧУЙ <br> ПОТІМ </h1>
+    </div>
+</body>
+</html>
